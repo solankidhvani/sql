@@ -54,7 +54,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+type 1 slowly changing dimensions will perform the duty of overwriting meaning it simply does not track changes. Whereas , type 2 slowly changing dimensions will retain changes i.e it maintains a full history of changes by creating a new recors for each update. 
 ```
 
 ***
